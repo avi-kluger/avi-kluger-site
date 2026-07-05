@@ -1,0 +1,19 @@
+/* Center the page title and subtitle on every page */
+#title-block-header .quarto-title .title,
+#title-block-header .quarto-title .subtitle,
+.quarto-title-banner .quarto-title .title,
+.quarto-title-banner .quarto-title .subtitle,
+header#title-block-header .title,
+header#title-block-header .subtitle {
+  text-align: center;
+}
+
+/* Space out items in the chapter sidebar (right) and the on-this-page TOC (left) */
+.sidebar-navigation .sidebar-item,
+.sidebar-item-container {
+  margin-block: 0.7rem;
+}
+nav[role="doc-toc"] > ul li,
+#TOC li {
+  margin-block: 0.6rem;
+}
